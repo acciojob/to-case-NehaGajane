@@ -1,6 +1,6 @@
 function toCase(text) {
   // write your code here
-	let x = text + "-"; 
+	let x = text.toLowerCase() + "-"; 
 		
 	x += text.toUpperCase();
 
